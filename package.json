@@ -11,6 +11,7 @@
         "type": "git",
         "url": "https://github.com/evo-cloud/cords"
     },
+    "main": "./index.js",
     "bin": "./cords.js",
     "dependencies": {
         "evo-elements": "git://github.com/evo-cloud/elements",
@@ -24,7 +25,7 @@
         "sandboxed-module": "0.2.0"
     },
     "engines": {
-        "node": ">=0.8",
+        "node": ">=0.10",
         "npm": "1"
     },
     "licenses": [
